@@ -1,0 +1,101 @@
+.hidden {
+    display: none;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+.container {
+    width: 48%;
+    display: inline-block;
+}
+
+
+h1 {
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+svg {
+    width: 100px;
+    margin-bottom: 10px;
+
+}
+
+#attachment:hover .cls-1 {
+    stroke: green;
+    transform: rotate(10deg);
+    transition: transform 0.2s ease-in;
+}
+
+#contact:hover .cls-1 {
+    stroke: green;
+    transform: translateX(10px);
+    transition: transform 0.3s ease-in;
+}
+
+#grid:hover .cls-1 {
+    fill: green;
+    transform: scale(1.03);
+}
+
+#handIcone:hover .cls-1 {
+    stroke: green;
+    transform: rotate(-15deg);
+    transform-origin: 51% 30%;
+}
+
+#home:hover .cls-1 {
+    stroke: green;
+    fill: green;
+    transform: translateX(20px);
+
+}
+
+#message:hover .cls-1 {
+    stroke: green;
+
+
+}
+
+#message:hover .cls-2 {
+    fill: green;
+    transform: translateX(10px);
+    transition: transform 0.3s ease-in;
+}
+
+#navigation:hover .cls-1,
+#navigation:hover .cls-2 {
+    stroke: green;
+    transform: scale(1.03);
+}
+
+#reFresh:hover .cls-1 {
+    stroke: green;
+    transform: rotate(-10deg);
+    transform-origin: 51% 30%;
+
+}
+
+#tickBox:hover .cls-1 {
+    fill: green;
+    transform: scale(0.9);
+}
+
+#creditCard:hover .cls-1,
+#creditCard:hover .cls-2 {
+    stroke: green;
+    transform: scale(1.04);
+}
